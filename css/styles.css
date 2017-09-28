@@ -1,0 +1,215 @@
+#background {
+    width: 100%; 
+    height: 100%; 
+    position: fixed; 
+    left: 0px; 
+    top: 0px; 
+    z-index: -1; 
+}
+
+.stretch {
+    width:100%;
+    height:100%;
+    
+}
+
+#header li a {
+  color: #bec8d1;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+#header li a:hover{
+  color: #86cecb;
+}
+
+#header .navbar {
+  margin: 0px;
+  border: none;
+}
+
+#header .container-fluid{
+  background-color: #373b3e;
+}
+
+#odd .container-fluid{
+  background-color: white;
+  height: 100vh;
+}
+
+#odd .container-fluid .intro-content, #work .container-fluid .work-title{
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #bec8d1;
+  text-align: center;
+  margin: 0px auto;
+}
+
+.void{
+  padding: 0px;
+  max-width: 250px;
+  border: none;
+  border-top: solid 5px;
+  text-align: center;
+  margin: 20px auto 15px;
+}
+
+#photo{
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  margin: 200px auto 0px;
+  background-position: center;
+  background-image: url('../img/potter.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
+.intro-content .void::after, hr.star-primary::after {
+   content: "\f121";
+   font-family: FontAwesome;
+   display: inline-block;
+   position: relative;
+   top:-.85em;
+   font-size: 2em;
+   padding: 0 .25em;
+   z-index: 1;
+   background-color: #137a7f;
+}
+
+.intro-content h2:nth-child(4){
+  margin-bottom: 100px;
+}
+
+.media-container{
+  width: 210px;
+  height: 50px;
+  margin: 0px auto;
+}
+
+#odd .media-container .social::after, #footer .media-container .social::after {
+  font-family: FontAwesome;
+  display: inline-block;
+  font-size: 2.5em;
+  padding: 0 .25em;
+  color: #bec8d1;
+  z-index: 1;
+}
+
+#git::after{
+  content: "\f092";
+}
+
+#link::after{
+  content: "\f08c";
+}
+
+#facebook::after{
+  content: "\f082";
+}
+
+#twitter::after{
+  content: "\f081";
+}
+
+#odd .media-container .social:hover::after{
+  color: #373b3e;
+}
+
+#work .content {
+  width: 1040px;
+  height: 700px;
+  margin: 10px auto 70px;
+}
+
+p{
+	color: red;
+}
+
+.content .project{
+  position: relative;
+  float: left;
+  width: 480px;
+  height: 300px;
+  margin: 30px 20px 20px 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#work .container-fluid .work-title{
+  color: #373b3e !important;
+  margin-top: 40px;
+}
+
+#work .work-title::after{
+  content: "\f121";
+  font-family: FontAwesome;
+  display: inline-block;
+  position: relative;
+  top:-1.35em;
+  font-size: 2em;
+  padding: 0 .25em;
+  z-index: 1;
+  background-color: white;
+}
+
+#odd #contact {
+  width: 100%;
+  height: 600px;
+}
+
+.contact-content h2, form{
+  margin-top: 100px;
+}
+
+input[type=text]{
+  border-radius: 4px;
+  width: 50%;
+  height: 50px;
+  margin: 0px 0px 20px 25%;
+  color: #bec8d1;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid 	#bec8d1;
+}
+
+input:focus{
+  outline:none;
+  color: #bec8d1;
+}
+
+::-webkit-input-placeholder{
+  color: 	#bec8d1;
+}
+
+input[type=submit]{
+  margin-left: 48.5%;
+}
+
+form div{
+  margin: 0px auto;
+}
+
+.contact-content{
+  margin: 0px auto;
+}
+
+#about .content{
+  width: 600px;
+  height: 290px !important;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#footer .row{
+  height: 75px;
+  background-color: #373b3e;
+}
+
+#footer .media-container .social:hover::after{
+  color: red;
+}
+
+
+
